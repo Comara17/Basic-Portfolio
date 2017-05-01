@@ -50,7 +50,7 @@ header {
 	text-decoration: none;
 }
 
-/*background behind main content*/
+/*Background behind main content*/
 body {
 	background-image: url("../images/background.png");
 	background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
 	z-index: -1;
 }
 
-/*left content panel*/
+/*Left content panel*/
 #main {
 	position: relative;
 	background-color: #ffffff;
@@ -86,6 +86,7 @@ h2 {
 	border-bottom: 2px solid lightgrey;
 	padding-bottom: 10px;
 }
+
 /*Left panel content for index.html*/
 p {
 	text-align: left;
