@@ -272,13 +272,13 @@ h3 {
 footer {
 	position: fixed;
 	text-align: center;
-	font-size: 12px;
-	font-family: 'Georgia';
+	font-size: 10px;
+	font-family: 'Helvetica';
 	color: lightgrey;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: 10px;
+	padding: 0px;
 	background-color: #666666;
 	border-top: 12px solid #4aaaa5;
 }
