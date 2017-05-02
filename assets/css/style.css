@@ -57,6 +57,7 @@ body {
 	background-size: 100%;
 	z-index: -1;
 	height: 1000px;
+
 }
 
 /*Left content panel*/
@@ -77,6 +78,7 @@ body {
 	height: 200px;
 	float: left;
 	margin-right: 20px;
+	margin-top: 20px;
 }
 
 h2 {
@@ -85,7 +87,7 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;	
 	background-color: #ffffff;
 	border-bottom: 2px solid lightgrey;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 /*Left panel content for index.html*/
@@ -95,16 +97,31 @@ p {
 	font-size: 18px;
 	color: #777777;
 	line-height: 1.5;
+	margin-top: 20px;
 }
+
+#quote {
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+
+#author {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+
 /*Left panel content for contact.html*/
 #name_input, #email { 
 	width: 90%; 
 	padding: 8px;
 	margin: 8px;
+	font-style: italic;
 }
 
 input[type=text], label {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Arial', Times, Times New Roman, serif;
 	font-size: 18px;
 	color: #777777;
 }
@@ -242,14 +259,14 @@ ul {
 
 /*Right panel content*/
 aside {
-	width: 200px;
-	float: right;
+	width: 220px;
+	/*float: right;*/
 	position: relative;
-	right: 200px;
+	right: -900px;
 	bottom: 520px;
 	background-color: #ffffff;
 	border: 2px solid grey;
-	padding: 20px;
+	padding: 30px;
 }
 
 h3 {
@@ -265,7 +282,8 @@ h3 {
 #github, #linkedin, #stackoverflow {
 	width: 50px;
 	height: 50px;
-	margin: 5px;
+	margin: 10px;
+	margin-top: 10px;
 }
 
 /*Footer... obviously*/
@@ -273,12 +291,12 @@ footer {
 	position: fixed;
 	text-align: center;
 	font-size: 10px;
-	font-family: 'Helvetica';
+	font-family: 'Arial';
 	color: lightgrey;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: 0px;
+	padding: 20px;
 	background-color: #666666;
 	border-top: 12px solid #4aaaa5;
 }
